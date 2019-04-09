@@ -1,0 +1,28 @@
+table, td, th{
+	border: 1px solid black;
+}
+
+tbody>tr>td:hover{
+	background: green;
+}
+
+thead{
+	background: blue;
+}
+
+.destaque{
+	color: red;
+	font-style: bold;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #FAAC58;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #FF4000;
+}
