@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Página da questão 1</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<div class="jumbotron">
+			<h1>Competição de carrinhos de rolimã</h1>
+		</div>
+
+		<div class="form-group">
+			<label for="comp">Competidor</label>
+			<input type="text" name="comp" id="comp">
+		</div>
+		<div class="form-group">
+			<label for="temp">Tempo</label>
+			<input type="text" name="temp" id="temp">
+		</div>
+		<div class="form-group">
+			<button onclick="addRow();">Cadastrar</button>
+		</div>
+		<div>
+			<table id="rankings-table" class="table">
+				<thead id="head">
+					<th>Largada</th>
+					<th>Competidor(a)</th>
+					<th>Tempo</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Marie Curie</td>
+						<td>87</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Malala Yousafzai</td>
+						<td>83</td >
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Nadia Murad</td>
+						<td>86</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>Suzana Herculano-Houzel</td>
+						<td>83</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Margaret Hamilton</td>
+						<td>85</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Grace Hopper</td>
+						<td>88</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<button onclick="sortTable()">Ordenar</button>
+		<script type="text/javascript" src="JS/script.js"></script>
+	</body>
+
+</html>
